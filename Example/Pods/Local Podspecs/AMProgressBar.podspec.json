@@ -1,8 +1,7 @@
 {
   "name": "AMProgressBar",
-  "version": "0.1.0",
-  "summary": "Beautiful progress bar for your iOS apps.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2",
+  "summary": "Elegant progress bar for your iOS app written in Swift.",
   "homepage": "https://github.com/Abdul-Moiz/AMProgressBar",
   "license": {
     "type": "MIT",
@@ -13,10 +12,13 @@
   },
   "source": {
     "git": "https://github.com/Abdul-Moiz/AMProgressBar.git",
-    "tag": "0.1.0"
+    "tag": "0.2"
   },
   "platforms": {
-    "ios": null
+    "ios": "14.0"
   },
-  "source_files": "AMProgressBar/Classes/**/*"
+  "swift_versions": "5",
+  "description": "Elegant progress bar for your iOS app written in Swift.\n\nFeatures\n  * Up-to-date: Swift 5\n  * Super easy to use and lightweight\n  * `IBInspectable` properties can be customized from `Interface Builder`\n  * Global config file to apply same style across app.",
+  "source_files": "AMProgressBar/Classes/**/*",
+  "swift_version": "5"
 }
